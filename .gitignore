@@ -25,3 +25,11 @@ Thumbs.db
 *.log
 npm-debug.log*
 
+# Lock files
+.~lock.*
+*.lock
+
+# Temporary files
+*.tmp
+*.temp
+
