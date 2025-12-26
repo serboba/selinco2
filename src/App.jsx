@@ -38,18 +38,16 @@ function App() {
     setIsAuthenticated(true);
   };
 
-  // Show login screen if not authenticated
-  if (!isAuthenticated) {
-    return <Login onLogin={handleLogin} />;
-  }
-
   const tabs = [
     { id: 'prices', label: 'Price Analysis' },
     { id: 'ets', label: 'EU ETS Analysis' },
     { id: 'leakage', label: 'Carbon Leakage Analysis' }
   ];
 
+  // Load data only if authenticated
   useEffect(() => {
+    if (!isAuthenticated) return;
+    
     Promise.all([
       fetch(`${import.meta.env.BASE_URL}data.csv`).then(r => r.text()),
       fetch(`${import.meta.env.BASE_URL}stellprices.csv`).then(r => r.text())
@@ -71,7 +69,12 @@ function App() {
         console.error('Error loading data:', error);
         setLoading(false);
       });
-  }, []);
+  }, [isAuthenticated]);
+
+  // Show login screen if not authenticated
+  if (!isAuthenticated) {
+    return <Login onLogin={handleLogin} />;
+  }
 
   if (loading) {
     return (
