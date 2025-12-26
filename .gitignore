@@ -1,6 +1,6 @@
 # Dependencies
 node_modules/
-package-lock.json
+# package-lock.json - Keep this for GitHub Actions
 yarn.lock
 
 # Build output
