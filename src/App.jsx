@@ -51,8 +51,8 @@ function App() {
 
   useEffect(() => {
     Promise.all([
-      fetch('/data.csv').then(r => r.text()),
-      fetch('/stellprices.csv').then(r => r.text())
+      fetch(`${import.meta.env.BASE_URL}data.csv`).then(r => r.text()),
+      fetch(`${import.meta.env.BASE_URL}stellprices.csv`).then(r => r.text())
     ])
       .then(([scrapText, steelText]) => {
         const parsedScrap = parseCSV(scrapText);

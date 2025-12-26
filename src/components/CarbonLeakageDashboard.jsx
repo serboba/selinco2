@@ -157,18 +157,19 @@ function CarbonLeakageDashboard() {
       setError(null);
       
       // Load preprocessed JSON files (much faster than Excel)
+      const baseUrl = import.meta.env.BASE_URL;
       const [mergedRes, importsRes, etsRes, industryRes, countriesRes] = await Promise.all([
-        fetch('/carbon_leakage/merged_data.json').then(r => {
+        fetch(`${baseUrl}carbon_leakage/merged_data.json`).then(r => {
           if (!r.ok) throw new Error(`Failed to load merged_data.json: ${r.status}`);
           return r.json();
         }),
-        fetch('/carbon_leakage/raw_imports.json').then(r => r.ok ? r.json() : []).catch(() => []),
-        fetch('/carbon_leakage/ets_data.json').then(r => {
+        fetch(`${baseUrl}carbon_leakage/raw_imports.json`).then(r => r.ok ? r.json() : []).catch(() => []),
+        fetch(`${baseUrl}carbon_leakage/ets_data.json`).then(r => {
           if (!r.ok) throw new Error(`Failed to load ets_data.json: ${r.status}`);
           return r.json();
         }),
-        fetch('/carbon_leakage/industry_data.json').then(r => r.ok ? r.json() : []).catch(() => []),
-        fetch('/carbon_leakage/top_countries.json').then(r => r.ok ? r.json() : []).catch(() => [])
+        fetch(`${baseUrl}carbon_leakage/industry_data.json`).then(r => r.ok ? r.json() : []).catch(() => []),
+        fetch(`${baseUrl}carbon_leakage/top_countries.json`).then(r => r.ok ? r.json() : []).catch(() => [])
       ]);
       
       console.log('Loaded preprocessed data:', {

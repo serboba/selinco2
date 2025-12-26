@@ -49,8 +49,8 @@ function ETSDashboard() {
 
   useEffect(() => {
     Promise.all([
-      fetch('/ets_steel_data.csv').then(r => r.text()),
-      fetch('/carbon_pricing_data.csv').then(r => r.text()).catch(() => null)
+      fetch(`${import.meta.env.BASE_URL}ets_steel_data.csv`).then(r => r.text()),
+      fetch(`${import.meta.env.BASE_URL}carbon_pricing_data.csv`).then(r => r.text()).catch(() => null)
     ])
       .then(([etsText, carbonText]) => {
         const parsed = parseETSCSV(etsText);
