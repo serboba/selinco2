@@ -1,0 +1,132 @@
+Unique ID,Instrument name,Type,Status,Jurisdiction covered,Share of jurisdiction emissions covered,Price on 1 April,Price_2020,Price_2021,Price_2022,Price_2023,Price_2024,Price_2025,Change,Change,Government revenue,Industry
+Tax_AL,Albania carbon tax,Carbon tax,Implemented,Albania,"73% of jurisdiction emissions, 0.0106% of global emissions","US$14 (ALL1,255)",,,,,13.11135507,13.69190487,0.044278398,,US$0 million (2024) (ALL0 million),No
+ETS_AL,Albania ETS,ETS,Under consideration,Albania,,,,,,,,,,,,
+Tax_CA_Alberta,Alberta carbon tax,Carbon tax,Abolished,Alberta,,,,,,,,,,,,
+ETS_CA_Alberta,Alberta TIER,ETS,Implemented,Alberta,"59% of jurisdiction emissions, 0.2852% of global emissions",US$66 (CAN$95),21.10149821,31.8344608,39.96163683,48.03073967,58.94488653,66.21131865,2.137754391,0.011574316,US$412 million (2024) (CAN$564 million),Yes
+Tax_AN,Andorra carbon tax,Carbon tax,Implemented,Andorra,"95% of jurisdiction emissions, 0.0008% of global emissions",US$32 (€30),,,,,,32.364,,,US$0 million (2024) (€0 million),No
+Tax_AR,Argentina carbon tax,Carbon tax,Implemented,Argentina,"38% of jurisdiction emissions, 0.2624% of global emissions","US$5 (ARS5,716)",6.342014552,5.321599371,4.995626444,3.218257023,0.811554266,5.327914694,-0.15990185,-0.283117821,"US$225 million (2024) (ARS203,646 million)",Yes
+ETS_AR,Argentina ETS,ETS,Under consideration,Argentina ,,,,,,,,,,,,
+ETS_AU1,Australia CPM,ETS,Abolished,Australia,,,,,,,,,,,,
+ETS_AU2,Australia Safeguard Mechanism,ETS,Implemented,Australia,"26% of jurisdiction emissions, 0.2807% of global emissions",US$22 (A$35),,,,,21.90375,21.81612,-0.004000685,,US$ million (2024) (A$ million),Yes
+ETS_AT,Austria ETS,ETS,Implemented,Austria,"36% of jurisdiction emissions, 0.0496% of global emissions",US$49 (€45),,,,35.34375,48.3705,48.546,0.373538462,0.379696183,"US$1,264 million (2024) (€1,177 million)",No
+Tax_BH,Bahrain carbon tax,Carbon tax,Under consideration,Bahrain,,,,,,,,,,,,
+Tax_MX_BC,Baja California carbon tax,Carbon tax,Abolished,Baja California,,,,8.31702544,,,,,,,,
+ETS_CN_Beijing,Beijing pilot ETS,ETS,Implemented,Beijing,"17% of jurisdiction emissions, 0.0472% of global emissions",US$12 (RMB88),12.2042201,4.323279666,6.527961251,12.95770547,14.51218332,12.1526058,-0.004229217,,US$1 million (2024) (RMB8 million),Yes
+Tax_BW,Botswana carbon tax,Carbon tax,Under consideration,Botswana,,,,,,,,,,,,
+ETS_BR,Brazil ETS,ETS,Under development,Brazil,,,,,,,,,,,,
+Tax_CA_BC,BC carbon tax,Carbon tax,Abolished,British Columbia,,,28.13533094,35.8137684,39.96163683,48.03073967,58.94488653,,1.09504863,0.517790952,,
+ETS_CA_BC,BC OBPS,ETS,Implemented,British Columbia,"26% of jurisdiction emissions, 0.0290% of global emissions",US$66 (CAN$95),,19.896538,19.98081841,18.47336141,58.94488653,66.21131865,2.327780875,,US$ million (2024) (CAN$ million),Yes
+UND_BN,Brunei Darussalam Undecided,Undefined,Under consideration,Brunei Darussalam,,,,,,,,,,,,
+ETS_US_California,California CaT,ETS,Implemented,California,"76% of jurisdiction emissions, 0.5644% of global emissions",US$29 (US$29),15.3,17.94,30.82,29.84,38.59,29.27,0.913071895,0.435912682,"US$4,401 million (2024) (US$4,401 million)",Yes
+ETS_CA2,Canada ETS,ETS,Under development,Canada,,,,,,,,,,,,
+Tax_CA,Canada federal fuel charge,Carbon tax,Abolished,Canada,,,21.10149821,31.8344608,39.96163683,48.03073967,58.94488653,,1.793398173,5x,,
+ETS_CA,Canada federal OBPS,ETS,Implemented,Canada,"3% of jurisdiction emissions, 0.0424% of global emissions",US$66 (CAN$95),,31.8344608,39.96163683,48.03073967,58.94488653,66.21131865,1.079863047,,US$0 million (2024) (CAN$0 million),Yes
+Tax_CAT,Catalonia carbon tax,Carbon tax,Under consideration,Catalonia,,,,,,,,,,,,
+Tax_CL,Chile carbon tax,Carbon tax,Implemented,Chile,"55% of jurisdiction emissions, 0.1261% of global emissions",US$5 (US$5),5.0,5.0,5.0,5.0,5.0,5.0,0,-0.15407855,US$140 million (2024) (US$140 million),Yes
+ETS_CL,Chile ETS,ETS,Under development,Chile,,,,,,,,,,,,
+ETS_CN,China national ETS,ETS,Implemented,China,"51% of jurisdiction emissions, 15.2937% of global emissions",US$12 (RMB86),,,9.199849028,8.15316299,12.57307921,11.76462495,0.278784567,,US$ million (2024) (RMB million),Yes
+ETS_CN_Chongqing,Chongqing pilot ETS,ETS,Implemented,Chongqing,"14% of jurisdiction emissions, 0.0555% of global emissions",US$6 (RMB40),5.30538703,3.714581368,5.661445556,4.65895028,5.988694318,5.510153541,0.038595961,,US$3 million (2024) (RMB23 million),Yes
+Tax_MX_Colima,Colima carbon tax,Carbon tax,Implemented,Colima,"17% of jurisdiction emissions, 0.0166% of global emissions",US$28 (MXN566),,,,,,27.7866465,,,US$0 million (2024) (MXN0 million),Yes
+Tax_CO,Colombia carbon tax,Carbon tax,Implemented,Colombia,"20% of jurisdiction emissions, 0.0846% of global emissions","US$7 (COP27,398)",4.244865787,4.605676883,5.013271992,5.035341621,6.678546744,6.536619117,0.53988829,-0.054270844,"US$133 million (2024) (COP551,965 million)",Yes
+ETS_CO,Colombia ETS,ETS,Under development,Colombia,,,,,,,,,,,,
+ETS_US_CO,Colorado GHG crediting trading system,ETS,Implemented,Colorado,"3% of jurisdiction emissions, 0.0000% of global emissions",US$ (US$),,,,,,,,,US$ million (2024) (US$ million),Yes
+Tax_CD,Côte d’Ivoire carbon tax,Carbon tax,Under consideration,Côte d’Ivoire,,,,,,,,,,,,
+Tax_DK,Denmark carbon tax,Carbon tax,Implemented,Denmark,"64% of jurisdiction emissions, 0.0505% of global emissions","US$108 (DKK (Øre)75,000)",25.67350408,27.91970556,26.36740721,26.29306655,28.39950998,108.4347801,3x,-0.066870098,"US$503 million (2024) (DKR3,495 million)",Yes
+ETS_DO,Dominican Republic ETS,ETS,Under consideration,Dominican Republic,,,,,,,,,,,,
+Tax_MX_Durango,Durango carbon tax,Carbon tax,Implemented,Durango,"34% of jurisdiction emissions, 0.0088% of global emissions",US$5 (MXN100),,,,,6.035986552,4.911904984,-0.186229966,,US$6 million (2024) (MXN112 million),Yes
+Tax_EE,Estonia carbon tax,Carbon tax,Implemented,Estonia,"10% of jurisdiction emissions, 0.0027% of global emissions",US$27 (€25),2.1872,2.3492,2.2104,2.175,2.1498,26.97,11x,-0.245894503,US$2 million (2024) (€2 million),Yes
+ETS_EU,EU ETS,ETS,Implemented,EU27+,"40% of jurisdiction emissions, 2.4793% of global emissions",US$70 (€65),18.53652,49.779548,86.526108,96.298125,61.301547,70.370124,3x,1.509887092,"US$41,703 million (2024) (€38,811 million)",Yes
+ETS_EU2,EU ETS2,ETS,Under development,EU27+,,,,,,,,,,,,
+Tax_FI,Finland carbon tax,Carbon tax,Implemented,Finland,"45% of jurisdiction emissions, 0.0369% of global emissions",US$67 (€62),84.2072,90.4442,85.1004,83.7375,99.98486304,66.8856,-0.205702125,-0.066439905,"US$1,375 million (2024) (€1,280 million)",Yes
+Tax_FR,France carbon tax,Carbon tax,Implemented,France,"41% of jurisdiction emissions, 0.2984% of global emissions",US$48 (€45),48.77456,52.38716,49.29192,48.5025,47.94054,48.11448,-0.013533285,-0.157135366,"US$7,844 million (2024) (€7,300 million)",Yes
+ETS_CN_Fujian,Fujian pilot ETS,ETS,Implemented,Fujian,"16% of jurisdiction emissions, 0.0963% of global emissions",US$5 (RMB34),1.280950437,1.246309767,1.825816192,4.65895028,3.746907523,4.727312751,3x,,US$ million (2024) (RMB million),Yes
+ETS_DE,Germany ETS,ETS,Implemented,Germany,"39% of jurisdiction emissions, 0.5021% of global emissions",US$49 (€45),,29.365,33.156,32.625,48.3705,48.546,0.653192576,0.632052166,"US$13,933 million (2024) (€12,967 million)",In principle
+Tax_MX_Guanajuato,Guanajuato carbon tax,Carbon tax,Implemented,Guanajuato,"40% of jurisdiction emissions, 0.0185% of global emissions",US$5 (MXN100),,,,,2.716193948,4.911904984,0.808377854,0.74378841,US$2 million (2024) (MXN34 million),Yes
+ETS_CN_Guangdong,Guangdong pilot ETS,ETS,Implemented,Guangdong (except Shenzhen),"12% of jurisdiction emissions, 0.1775% of global emissions",US$5 (RMB39),4.131417069,5.715677025,12.51022205,12.34185048,8.939504927,5.406967145,0.308743962,,US$ million (2024) (RMB million),Yes
+Tax_US_HI,Hawaii carbon tax,Carbon tax,Under consideration,Hawaii,,,,,,,,,,,,
+ETS_CN_Hubei,Hubei pilot ETS,ETS,Implemented,Hubei,"20% of jurisdiction emissions, 0.1449% of global emissions",US$5 (RMB38),3.566954294,4.41154092,7.240359816,6.962218825,5.618288115,5.272136921,0.478050036,-0.639070191,US$ million (2024) (RMB million),Yes
+Tax_HU,Hungary carbon tax,Carbon tax,Implemented,Hungary,"32% of jurisdiction emissions, 0.0368% of global emissions",US$39 (€36),,,,,38.6964,38.8368,0.003628244,0.580548693,US$182 million (2024) (€170 million),Yes
+Tax_IS,Iceland carbon tax,Carbon tax,Implemented,Iceland,"37% of jurisdiction emissions, 0.0029% of global emissions","US$60 (ISK8,000)",30.74379989,35.36209385,35.61275839,36.10866608,36.50816385,60.06006006,0.953566582,0.118441831,"US$54 million (2024) (ISK7,515 million)",Yes
+ETS_IN,India ETS,ETS,Under development,India,,,,,,,,,,,,
+Tax_ID,Indonesia carbon tax,Carbon tax,Under development,Indonesia,,,,,,,,,,,,
+ETS_ID,Indonesia ETS,ETS,Implemented,Indonesia,"24% of jurisdiction emissions, 0.5436% of global emissions","US$1 (IDR12,000)",,,,,0.612165181,0.724375226,0.183300273,,US$ million (2024) (IDR million),No
+Tax_IE,Ireland carbon tax,Carbon tax,Implemented,Ireland,"34% of jurisdiction emissions, 0.0371% of global emissions",US$69 (€64),28.5216403,39.67853261,45.69004849,53.18511109,52.56889739,68.5038,1.401818384,1.224931712,"US$1,111 million (2024) (€1,034 million)",Yes
+Tax_IL,Israel carbon tax,Carbon tax,Implemented,Israel,"78% of jurisdiction emissions, 0.1172% of global emissions",US$2 (ILS6),,,,,,1.511470985,,,US$0 million (2024) (ILS0 million),Yes
+Tax_MX_JA,Jalisco carbon tax,Carbon tax,Under consideration,Jalisco,,,,,,,,,,,,
+Tax_JP,Japan carbon tax,Carbon tax,Implemented,Japan,"80% of jurisdiction emissions, 1.5724% of global emissions",US$2 (JPY289),2.496382603,2.424053077,2.197715552,2.011993111,1.905075808,1.929238985,-0.227186176,-0.400869892,"US$1,452 million (2024) (JPY234,000 million)",Yes
+ETS_JP,Japan ETS,ETS,Under development,Japan,,,,,,,,,,,,
+ETS_KZ,Kazakhstan ETS,ETS,Implemented,Kazakhstan,"43% of jurisdiction emissions, 0.2601% of global emissions",US$1 (KZT470),1.112451318,1.176775165,1.08082606,1.115760112,1.059208169,0.931726271,-0.16245659,,US$ million (2024) (KZT million),Yes
+Tax_KE,Kenya carbon tax,Carbon tax,Under consideration,Kenya,,,,,,,,,,,,
+ETS_KR,Korea ETS,ETS,Implemented,"Korea, Rep.","79% of jurisdiction emissions, 0.9753% of global emissions","US$6 (KRW9,490)",32.78688525,15.89263641,18.74948377,11.23638595,6.302427437,6.453148375,-0.803178975,-0.331091531,"US$134 million (2024) (KRW185,859 million)",Yes
+Tax_LT,Latvia carbon Tax,Carbon tax,Implemented,Latvia,"2% of jurisdiction emissions, 0.0004% of global emissions",US$16 (€15),9.8424,14.0952,16.578,16.3125,16.1235,16.182,0.644111192,-0.136037851,US$8 million (2024) (€8 million),Yes
+Tax_LI,Liechtenstein carbon tax,Carbon tax,Implemented,Liechtenstein,"72% of jurisdiction emissions, 0.0002% of global emissions",US$136 (Sfr120),99.44064636,101.4745521,129.8560762,130.8115768,132.122213,136.0389978,0.368042172,1.156828425,US$9 million (2024) (Sfr8 million),Yes
+Tax_LU,Luxembourg carbon tax,Carbon tax,Implemented,Luxembourg,"72% of jurisdiction emissions, 0.0107% of global emissions",US$59 (€54),,40.124336,43.345944,45.00075,49.907607,58.546476,0.459126352,0.169608346,US$303 million (2024) (€282 million),Yes
+ETS_MY,Malaysia ETS,ETS,Under consideration,Malaysia,,,,,,,,,,,,
+Tax_MY,Malaysia carbon tax,Carbon tax,Under development,Malaysia,,,,,,,,,,,,
+ETS_US_Maryland,Maryland ETS,ETS,Under consideration,Maryland,,,,,,,,,,,,
+ETS_US_MA,Massachusetts ETS,ETS,Implemented,Massachusetts,"9% of jurisdiction emissions, 0.0106% of global emissions",US$9 (US$9),8.198567,6.5,0.5,12.05,2.25,9.3,0.134344575,1.285853099,US$19 million (2024) (US$19 million),No
+Tax_MR,Mauritania carbon tax,Carbon tax,Under consideration,Mauritania,,,,,,,,,,,,
+Tax_MX,Mexico carbon tax,Carbon tax,Implemented,Mexico,"29% of jurisdiction emissions, 0.3899% of global emissions",US$4 (MXN80),2.334344628,2.890222937,3.196554986,3.789652385,4.305144789,3.942786131,0.689033438,0.520127656,"US$411 million (2024) (MXN7,552 million)",Yes
+ETS_MX,Mexico ETS,ETS,Implemented,Mexico,"36% of jurisdiction emissions, 0.4840% of global emissions",US$0 (MXN0),,,,,,,,,US$ million (2024) (MXN million),Yes
+Tax_MX_MC,Mexico City carbon tax,Carbon tax,Implemented,Mexico City,"18% of jurisdiction emissions, 0.0074% of global emissions",US$3 (MXN58),,,,,,2.848904891,,,US$0 million (2024) (MXN0 million),Yes
+ETS_MO,Montenegro ETS,ETS,Implemented,Montenegro,"43% of jurisdiction emissions, 0.0001% of global emissions",US$26 (€24),,,,,25.7976,25.8912,0.003628244,0.371961966,US$14 million (2024) (€13 million),Yes
+Tax_MX_MO,Morelos carbon tax,Carbon tax,Implemented,Morelos,"31% of jurisdiction emissions, 0.0034% of global emissions",US$12 (MXN250),,,,,,12.27976246,,,US$0 million (2024) (MXN0 million),Yes
+Tax_MA,Morocco carbon tax,Carbon tax,Under consideration,Morocco,,,,,,,,,,,,
+Tax_NL,Netherlands carbon tax,Carbon tax,Implemented,Netherlands,"45% of jurisdiction emissions, 0.1281% of global emissions",US$95 (€88),,35.238,46.1421,60.83475,71.48085,94.82652,1.691030138,,US$0 million (2024) (€0 million),Yes
+Tax_CA_NB,New Brunswick carbon tax,Carbon tax,Abolished,New Brunswick,,,21.10149821,31.8344608,39.96163683,48.03073967,,,,,,
+ETS_CA_NB,New Brunswick OBPS,ETS,Implemented,New Brunswick,"54% of jurisdiction emissions, 0.0122% of global emissions",US$66 (CAN$95),,,39.96163683,48.03073967,58.94488653,66.21131865,0.656872038,,US$0 million (2024) (CAN$0 million),Yes
+ETS_US_NJ,New Jersey ETS,ETS,Under consideration,New Jersey,,,,,,,,,,,,
+ETS_US_NY,New York State ETS,ETS,Under development,New York State,,,,,,,,,,,,
+Tax_NZ,New Zealand carbon tax,Carbon tax,Under consideration,New Zealand,,,,,,,,,,,,
+ETS_NZ,New Zealand ETS,ETS,Implemented,New Zealand,"44% of jurisdiction emissions, 0.0700% of global emissions",US$32 (NZ$56),14.304,25.75989,52.6224,34.19875,35.105,32.007124,1.237634508,0.041828682,US$293 million (2024) (NZ$481 million),Yes
+Tax_CA_NL,Newfoundland and Labrador carbon tax,Carbon tax,Abolished,Newfoundland and Labrador,,,14.06766547,23.8758456,39.96163683,48.03073967,,,,-0.402739916,,
+ETS_CA_NL,Newfoundland and Labrador PSS,ETS,Implemented,Newfoundland and Labrador,"36% of jurisdiction emissions, 0.0056% of global emissions",US$66 (CAN$95),,23.8758456,39.96163683,48.03073967,58.94488653,66.21131865,1.773150729,9x,US$0 million (2024) (CAN$1 million),Yes
+Tax_CA_NT,Northwest Territories carbon tax,Carbon tax,Abolished,Northwest Territories,,,14.06766547,23.8758456,31.96930946,48.03073967,58.94488653,,3x,9x,,
+Tax_NO,Norway carbon tax,Carbon tax,Implemented,Norway,"65% of jurisdiction emissions, 0.0696% of global emissions","US$134 (NOK1,405)",63.27639752,80.35284871,96.30561592,94.49089451,107.7835515,133.9204865,1.116436646,-0.032479516,"US$1,605 million (2024) (NOK17,080 million)",Yes
+ETS_CA_NS,Nova Scotia OBPS,ETS,Implemented,Nova Scotia,"36% of jurisdiction emissions, 0.0102% of global emissions",US$66 (CAN$95),,19.65777955,23.09782609,20.8748984,58.94488653,66.21131865,2.368199267,-0.38340283,US$13 million (2024) (CAN$18 million),Yes
+ETS_CA_Ontario,Ontario CaT,ETS,Abolished,Ontario,,,,,,,,,,,,
+ETS_CA_Ontario2,Ontario EPS,ETS,Implemented,Ontario,"26% of jurisdiction emissions, 0.0741% of global emissions",US$66 (CAN$95),,,31.96930946,48.03073967,58.94488653,66.21131865,1.071090047,,US$0 million (2024) (CAN$0 million),Yes
+ETS_US_Oregon,Oregon ETS,ETS,Implemented,Oregon,"48% of jurisdiction emissions, 0.0466% of global emissions",US$0 (US$0),,,,,,,,,US$ million (2024) (US$ million),Yes
+ETS_PK,Pakistan ETS,ETS,Under consideration,Pakistan,,,,,,,,,,,,
+Tax_PY,Paraguay carbon tax,Carbon tax,Under consideration,Paraguay,,,,,,,,,,,,
+ETS_US_PE,Pennsylvania ETS,ETS,Under consideration,Pennsylvania,,,,,,,,,,,,
+ETS_PH,Philippines ETS,ETS,Under consideration,Philippines,,,,,,,,,,,,
+Tax_PL,Poland carbon tax,Carbon tax,Implemented,Poland,"24% of jurisdiction emissions, 0.1649% of global emissions",US$0 (PLZ0),0.071940534,0.078624328,0.076230406,,0.084980879,0.09830298,0.366447745,0.036462234,US$7 million (2024) (PLZ27 million),Yes
+Tax_PT,Portugal carbon tax,Carbon tax,Implemented,Portugal,"40% of jurisdiction emissions, 0.0400% of global emissions",US$73 (€67),13.79141638,27.81387335,26.17052003,25.75139389,25.45303292,72.700332,4x,3x,"US$1,270 million (2024) (€1,182 million)",No
+Tax_CA_PE,Prince Edward Island carbon tax,Carbon tax,Abolished,Prince Edward Island,,,21.10149821,23.8758456,23.9769821,36.94672283,,,,0.472189954,,
+ETS_CA_Quebec,Quebec CaT,ETS,Implemented,Quebec,"76% of jurisdiction emissions, 0.1101% of global emissions",US$42 (US$42),21.75201163,17.94,38.58,29.84,38.59,41.54,0.909708431,0.426157851,"US$1,055 million (2024) (CAN$1,444 million)",Yes
+Tax_MX_Queretaro,Queretaro carbon tax,Carbon tax,Implemented,Queretaro,"18% of jurisdiction emissions, 0.0068% of global emissions",US$33 (MXN668),,,,32.20020508,36.69819464,32.78794815,0.018252774,-0.058315174,US$15 million (2024) (MXN282 million),Yes
+ETS_RGGI,RGGI,ETS,Implemented,RGGI,"14% of jurisdiction emissions, 0.1670% of global emissions",US$23 (US$23),5.13,8.69,13.89,15.3882476,17.64,23.32,4x,4x,"US$1,456 million (2024) (US$1,456 million)",No
+ETS_JP_Saitama,Saitama ETS,ETS,Implemented,Saitama,"16% of jurisdiction emissions, 0.0118% of global emissions",US$1 (JPY144),5.577244841,5.415651232,3.83797054,1.078813305,0.949241925,0.961281709,-0.82764219,,US$ million (2024) (JPY million),Yes
+ETS_RU_Sakhalin,Sakhalin ETS,ETS,Under development,Sakhalin,,,,,,,,,,,,
+Tax_MX_SLP,San Luis Potosí carbon tax,Carbon tax,Implemented,San Luis Potosí,"68% of jurisdiction emissions, 0.0308% of global emissions",US$17 (MXN339),,,,,,16.6719879,,,US$1 million (2024) (MXN20 million),Yes
+ETS_CA_SK,Saskatchewan OBPS,ETS,Abolished,Saskatchewan,,,,31.8344608,39.96163683,48.03073967,58.94488653,,0.851606248,11x,,
+Tax_SN,Senegal carbon tax,Carbon tax,Under consideration,Senegal,,,,,,,,,,,,
+ETS_CN_Shanghai,Shanghai pilot ETS,ETS,Implemented,Shanghai,"21% of jurisdiction emissions, 0.1045% of global emissions",US$11 (RMB78),5.068903872,6.315244849,9.276907593,8.720972556,10.06178044,10.79742447,1.130130052,,US$13 million (2024) (RMB96 million),Yes
+ETS_CN_Shenzhen,Shenzhen pilot ETS,ETS,Implemented,Shenzhen,"37% of jurisdiction emissions, 0.0351% of global emissions",US$7 (RMB47),2.384538506,1.12000487,0.641630496,8.769017981,8.95609028,6.533762589,1.740053294,,US$ million (2024) (RMB million),Yes
+Tax_SG,Singapore carbon tax,Carbon tax,Implemented,Singapore,"71% of jurisdiction emissions, 0.0996% of global emissions",US$19 (S$25),3.51024993,3.713606655,3.6856848,3.767897513,18.47882327,18.61920012,4x,0.08306882,US$150 million (2024) (S$204 million),Yes
+Tax_SL,Slovenia carbon tax,Carbon tax,Implemented,Slovenia,"46% of jurisdiction emissions, 0.0139% of global emissions",US$33 (€31),18.91928,20.32058,19.11996,,18.59577,33.28098,0.759103941,1.061315637,US$173 million (2024) (€161 million),No
+Tax_ZA,South Africa carbon tax,Carbon tax,Implemented,South Africa,"82% of jurisdiction emissions, 0.8084% of global emissions",US$13 (R236),7.059869921,9.150942752,9.83519223,8.925614268,10.08578223,12.84892173,0.819994117,1.509916609,"US$92 million (2024) (R1,689 million)",Yes
+Tax_ES,Spain carbon tax,Carbon tax,Implemented,Spain,"2% of jurisdiction emissions, 0.0108% of global emissions",US$16 (€15),16.404,17.619,16.578,16.3125,16.1235,16.182,-0.013533285,-0.053220548,US$118 million (2024) (€110 million),Yes
+Tax_MX_SoMexico,State of Mexico carbon tax,Carbon tax,Implemented,State of Mexico,"47% of jurisdiction emissions, 0.0408% of global emissions",US$3 (MXN58),,,,2.383393842,3.5008722,2.848904891,0.195314362,1.764270774,US$14 million (2024) (MXN252 million),Yes
+Tax_SE,Sweden carbon tax,Carbon tax,Implemented,Sweden,"40% of jurisdiction emissions, 0.0371% of global emissions","US$145 (SEK1,450)",119.4323451,136.0995471,129.8881046,125.5565536,123.696076,144.6246989,0.210934097,-0.069173334,"US$2,306 million (2024) (SEK24,400 million)",Yes
+Tax_CH,Switzerland carbon tax,Carbon tax,Implemented,Switzerland,"35% of jurisdiction emissions, 0.0287% of global emissions",US$136 (Sfr120),99.44064636,101.4745521,129.8560762,130.8115768,132.122213,136.0389978,0.368042172,0.175092187,"US$1,426 million (2024) (Sfr1,285 million)",In principle
+ETS_CH,Switzerland ETS,ETS,Implemented,Switzerland,"13% of jurisdiction emissions, 0.0107% of global emissions",US$65 (€60),19.84884,46.10305,65.59362,93.80775,59.173245,64.749576,2.262134009,5x,US$50 million (2024) (Sfr45 million),Yes
+Tax_CN_Taiwan,"Taiwan, China carbon fee",Carbon tax,Implemented,"Taiwan, China","54% of jurisdiction emissions, 0.3137% of global emissions",US$9 (RMB66),,,,,9.121943803,9.08040284,-0.00455396,,US$0 million (2024) (RMB0 million),Yes
+ETS_CN_Taiwan,"Taiwan, China ETS",ETS,Under consideration,"Taiwan, China",,,,,,,,,,,,
+Tax_MX_TA,Tamaulipas carbon tax,Carbon tax,Implemented,Tamaulipas,"48% of jurisdiction emissions, 0.0364% of global emissions",US$17 (MXN339),,,13.10272537,17.25022864,19.6598118,16.6719879,0.272406116,44x,"US$82 million (2024) (MXN1,512 million)",Yes
+Tax_TH,Thailand carbon tax,Carbon tax,Under development,Thailand,,,,,,,,,,,,
+ETS_TH,Thailand ETS,ETS,Under consideration,Thailand,,,,,,,,,,,,
+ETS_CN_Tianjin,Tianjin pilot ETS,ETS,Implemented,Tianjin,"18% of jurisdiction emissions, 0.0665% of global emissions",US$5 (RMB39),2.815275686,3.804364367,4.403346543,4.603625246,4.70885796,5.296901656,0.881485953,,US$ million (2024) (RMB million),Yes
+ETS_JP_Tokyo,Tokyo CaT,ETS,Implemented,Tokyo,"19% of jurisdiction emissions, 0.0218% of global emissions",US$4 (JPY600),5.577244841,4.874086109,4.41898527,5.244231346,36.91496374,4.005340454,-0.281842457,,US$ million (2024) (JPY million),Yes
+ETS_TR,Türkiye ETS,ETS,Under development,Türkiye,,,,,,,,,,,,
+Tax_UA,Ukraine carbon tax,Carbon tax,Implemented,Ukraine,"32% of jurisdiction emissions, 0.1306% of global emissions",US$1 (UAH30),0.384615385,0.35942004,1.025469238,0.820375951,0.767756283,0.730410393,0.899067022,1.476544525,"US$80 million (2024) (UAH3,300 million)",Yes
+ETS_UA,Ukraine ETS,ETS,Under development,Ukraine,,,,,,,,,,,,
+Tax_UK,UK Carbon Price Support,Carbon tax,Implemented,United Kingdom,"12% of jurisdiction emissions, 0.0824% of global emissions",US$23 (£18),22.284,24.795,23.6538,22.2759,22.6188,23.2371,0.042770598,-0.222111409,US$872 million (2024) (£688 million),No
+ETS_UK,UK ETS,ETS,Implemented,United Kingdom,"27% of jurisdiction emissions, 0.1934% of global emissions",US$57 (£44),,,98.5575,88.1259355,45.061676,57.2278135,-0.41934593,-0.453246558,"US$3,250 million (2024) (£2,564 million)",Yes
+Tax_UY,Uruguay CO2 tax,Carbon tax,Implemented,Uruguay,"5% of jurisdiction emissions, 0.0039% of global emissions","US$159 (YUY6,704)",,,137.2954109,155.8683502,167.1738104,158.7647421,0.156373262,0.150188348,"US$302 million (2024) (YUY12,078 million)",Yes
+ETS_US_VT,Vermont ETS,ETS,Under consideration,Vermont,,,,,,,,,,,,
+ETS_VN,Viet Nam ETS,ETS,Under development,Viet Nam,,,,,,,,,,,,
+ETS_US_Washington,Washington CCA,ETS,Implemented,Washington,"71% of jurisdiction emissions, 0.1155% of global emissions",US$50 (US$50),,,,22.2,25.75,50.0,1.252252252,-0.555629232,US$811 million (2024) (US$811 million),Yes
+Tax_MX_Yucatan,Yucatan carbon tax,Carbon tax,Implemented,Yucatan,"32% of jurisdiction emissions, 0.0117% of global emissions",US$15 (MXN305),,,,15.52531663,17.69383062,15.00488735,-0.033521332,1.056455848,US$6 million (2024) (MXN117 million),Yes
+Tax_MX_ZA,Zacatecas carbon tax,Carbon tax,Implemented,Zacatecas,"50% of jurisdiction emissions, 0.0103% of global emissions",US$12 (MXN250),10.20749802,14.14187867,12.59877439,13.85694094,15.08996638,12.27976246,0.203013945,-0.429958022,US$16 million (2024) (MXN290 million),Yes

@@ -1,0 +1,22 @@
+{
+  "name": "steel-scrap-cbam-dashboard",
+  "version": "1.0.0",
+  "description": "Steel Scrap Price Dashboard with CBAM Impact Analysis",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "preprocess": "node scripts/preprocessCarbonLeakageData.js"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "recharts": "^2.10.3",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^3.1.0",
+    "vite": "^4.5.0"
+  }
+}

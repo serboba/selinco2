@@ -1,0 +1,604 @@
+.carbon-leakage-dashboard {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #F8F9FA 0%, #FFFFFF 100%);
+  padding: 2rem;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.filters-section {
+  background: #FFFFFF;
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.filter-group {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.filter-group label {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #6B7280;
+  white-space: nowrap;
+}
+
+.filter-group input[type="date"],
+.filter-group select {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #E5E7EB;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  color: #1F2937;
+  background: #FFFFFF;
+  transition: border-color 0.2s;
+}
+
+.filter-group input[type="date"]:focus,
+.filter-group select:focus {
+  outline: none;
+  border-color: #2563EB;
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+.filter-group span {
+  color: #6B7280;
+  font-size: 0.875rem;
+}
+
+.regression-info {
+  margin-top: 1rem;
+  padding: 1rem;
+  background: #F9FAFB;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  color: #6B7280;
+}
+
+.regression-info p {
+  margin: 0.25rem 0;
+}
+
+.econometric-section {
+  background: #FFFFFF;
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.econometric-section.main-thesis {
+  border: 2px solid #2563EB;
+  background: linear-gradient(to bottom, #EFF6FF, #FFFFFF);
+}
+
+.econometric-section.supporting-analysis {
+  border: 2px solid #7C3AED;
+  background: linear-gradient(to bottom, #F5F3FF, #FFFFFF);
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.section-header h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1F2937;
+  margin: 0;
+}
+
+.section-badge {
+  padding: 0.375rem 0.75rem;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.main-thesis .section-badge {
+  background: #2563EB;
+  color: #FFFFFF;
+}
+
+.supporting-analysis .section-badge {
+  background: #7C3AED;
+  color: #FFFFFF;
+}
+
+.econometric-section h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1F2937;
+  margin-bottom: 0.5rem;
+}
+
+.model-subsection {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid #E5E7EB;
+}
+
+.model-subsection:first-child {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: none;
+}
+
+.model-subsection h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1F2937;
+  margin-bottom: 0.5rem;
+}
+
+.model-subsection h4 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1F2937;
+  margin-bottom: 0.5rem;
+}
+
+.model-equation {
+  background: #F9FAFB;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  font-family: 'Courier New', monospace;
+  font-size: 0.9375rem;
+  color: #1F2937;
+  border-left: 4px solid #2563EB;
+}
+
+.regression-results {
+  margin-top: 1.5rem;
+}
+
+.summary-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.stat-card {
+  background: #F9FAFB;
+  border-radius: 8px;
+  padding: 1.5rem;
+  border: 1px solid #E5E7EB;
+}
+
+.stat-card h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1F2937;
+  margin-bottom: 1rem;
+}
+
+.stat-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+}
+
+.stat-table td {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #E5E7EB;
+  color: #6B7280;
+}
+
+.stat-table td:first-child {
+  font-weight: 600;
+  color: #4B5563;
+  width: 40%;
+}
+
+.stat-table td:last-child {
+  text-align: right;
+  color: #1F2937;
+  font-weight: 500;
+}
+
+.section-description {
+  font-size: 0.9375rem;
+  color: #6B7280;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.regression-table-container {
+  overflow-x: auto;
+  margin: 1.5rem 0;
+}
+
+.regression-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+}
+
+.regression-table thead {
+  background: #F9FAFB;
+}
+
+.regression-table th {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  font-weight: 600;
+  color: #1F2937;
+  border-bottom: 2px solid #E5E7EB;
+  white-space: nowrap;
+}
+
+.regression-table td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #E5E7EB;
+  color: #6B7280;
+}
+
+.regression-table tbody tr:hover {
+  background: #F9FAFB;
+}
+
+.regression-table tbody tr.significant {
+  background: #FEF2F2;
+  font-weight: 500;
+}
+
+.regression-table tbody tr.significant td {
+  color: #991B1B;
+}
+
+.interpretation-box {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background: #F9FAFB;
+  border-radius: 8px;
+  border-left: 4px solid #2563EB;
+}
+
+.interpretation-box h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #1F2937;
+  margin-bottom: 1rem;
+}
+
+.interpretation-content {
+  line-height: 1.8;
+  color: #4B5563;
+}
+
+.interpretation-content p {
+  margin-bottom: 1rem;
+}
+
+.interpretation-content p:last-child {
+  margin-bottom: 0;
+}
+
+.interpretation-content .significant-result {
+  color: #991B1B;
+  font-weight: 500;
+}
+
+.interpretation-content .insignificant-result {
+  color: #92400E;
+  font-weight: 500;
+}
+
+.narrative-section {
+  background: #FFFFFF;
+  border-radius: 12px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.narrative-section h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1F2937;
+  margin-bottom: 1rem;
+}
+
+.narrative-content {
+  line-height: 1.8;
+  color: #4B5563;
+}
+
+.narrative-content h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #1F2937;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.narrative-content h3:first-child {
+  margin-top: 0;
+}
+
+.narrative-content p {
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+
+.error-container {
+  background: #FEF2F2;
+  border: 1px solid #FECACA;
+  border-radius: 8px;
+  padding: 2rem;
+  text-align: center;
+  color: #991B1B;
+}
+
+.error-container h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.error-container p {
+  margin: 0.5rem 0;
+  color: #7F1D1D;
+}
+
+/* Reuse existing styles from App.css */
+.metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.metric-card {
+  background: #FFFFFF;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border-top: 4px solid;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.metric-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.metric-title {
+  font-size: 0.875rem;
+  color: #6B7280;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.75rem;
+}
+
+.metric-value {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #1F2937;
+}
+
+.metric-subtitle {
+  font-size: 0.75rem;
+  color: #6B7280;
+  margin-top: 0.25rem;
+}
+
+.chart-container {
+  background: #FFFFFF;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+}
+
+.chart-container h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #1F2937;
+  margin-bottom: 0.5rem;
+}
+
+.chart-container h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #1F2937;
+  margin-bottom: 0.5rem;
+}
+
+.chart-description {
+  font-size: 0.875rem;
+  color: #6B7280;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+.chart-container.main-chart {
+  margin-bottom: 2.5rem;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.dashboard-header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 2px solid #E5E7EB;
+}
+
+.dashboard-header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1F2937;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  color: #6B7280;
+  font-weight: 500;
+}
+
+.loading-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-size: 1.2rem;
+  color: #6B7280;
+}
+
+.loading-spinner {
+  width: 50px;
+  height: 50px;
+  border: 4px solid #E5E7EB;
+  border-top-color: #2563EB;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 1rem;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.methodological-warning {
+  background: #FEF3C7;
+  border: 1px solid #F59E0B;
+  border-left: 4px solid #F59E0B;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.methodological-warning h3,
+.methodological-warning h4 {
+  color: #92400E;
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+}
+
+.methodological-warning p {
+  color: #78350F;
+  margin-bottom: 0.75rem;
+}
+
+.methodological-warning p:last-child {
+  margin-bottom: 0;
+}
+
+.methodological-content {
+  line-height: 1.8;
+  color: #4B5563;
+}
+
+.methodological-content h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #1F2937;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.methodological-content h3:first-child {
+  margin-top: 0;
+}
+
+.methodological-content .data-info {
+  background: #F9FAFB;
+  padding: 1rem;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+.methodological-content .data-info p {
+  margin: 0.5rem 0;
+}
+
+.methodological-list {
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+}
+
+.methodological-list li {
+  margin-bottom: 0.75rem;
+  color: #4B5563;
+}
+
+.methodological-note {
+  font-size: 0.875rem;
+  font-style: italic;
+  color: #6B7280;
+  margin-top: 1rem;
+}
+
+.cbam-descriptive {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background: #F9FAFB;
+  border-radius: 8px;
+}
+
+.cbam-descriptive h5 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1F2937;
+  margin-bottom: 1rem;
+}
+
+.frequency-badge {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  background: #DBEAFE;
+  color: #1E40AF;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin-left: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .carbon-leakage-dashboard {
+    padding: 1rem;
+  }
+  
+  .filters-section {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .filter-group {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .regression-table-container {
+    overflow-x: scroll;
+  }
+}
+

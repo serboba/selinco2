@@ -1,0 +1,110 @@
+.ets-dashboard {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #F8F9FA 0%, #FFFFFF 100%);
+  padding: 2rem;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.metric-selector {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  justify-content: center;
+}
+
+.metric-selector button {
+  padding: 0.75rem 1.5rem;
+  background: #FFFFFF;
+  border: 2px solid #E5E7EB;
+  border-radius: 8px;
+  color: #6B7280;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.metric-selector button:hover {
+  border-color: #2563EB;
+  color: #2563EB;
+}
+
+.metric-selector button.active {
+  background: #2563EB;
+  border-color: #2563EB;
+  color: #FFFFFF;
+}
+
+.metric-subtitle {
+  font-size: 0.75rem;
+  color: #6B7280;
+  margin-top: 0.25rem;
+}
+
+.metric-trend {
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+
+.metric-trend.positive {
+  color: #10B981;
+}
+
+.metric-trend.negative {
+  color: #EF4444;
+}
+
+.metric-value.positive {
+  color: #10B981;
+}
+
+.metric-value.negative {
+  color: #EF4444;
+}
+
+.metric-value.warning {
+  color: #F59E0B;
+}
+
+.chart-description {
+  font-size: 0.875rem;
+  color: #6B7280;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+.coverage-stats {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.coverage-item {
+  text-align: center;
+  flex: 1;
+}
+
+.coverage-value {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.coverage-label {
+  font-size: 0.9375rem;
+  color: #6B7280;
+  font-weight: 500;
+}
+
+.metric-note {
+  font-size: 0.75rem;
+  color: #9CA3AF;
+  font-style: italic;
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid #E5E7EB;
+}
+
